@@ -61,8 +61,7 @@ h2{
         }
         &-lang{
             position: aboslute;
-            
-            transform: rotate(-90deg);
+            transform: rotate(-90deg) translateY(toVw(30px)) translateX(toVw(30px));
         }
     }
     &-photo{
@@ -125,6 +124,9 @@ h2{
 }
 .portfolio{
     padding-top: toVw(110px);
+    h2{
+        margin-bottom: toVw(45px);
+    }
     &-element{
         height: toVw(700px);
         &-image{
@@ -157,6 +159,7 @@ h2{
         font-weight: 700;
         color: white;
         background-color: #070707;
+        cursor: pointer;
     }
     &-socials{
         &-list{

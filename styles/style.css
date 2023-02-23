@@ -55,7 +55,7 @@ h2 {
 }
 .first-screen-info-lang {
   position: aboslute;
-  transform: rotate(-90deg);
+  transform: rotate(-90deg) translateY(2.0761245675vw) translateX(2.0761245675vw);
 }
 .first-screen-photo {
   padding-bottom: 7.2664359862vw;
@@ -119,6 +119,9 @@ h2 {
 .portfolio {
   padding-top: 7.6124567474vw;
 }
+.portfolio h2 {
+  margin-bottom: 3.1141868512vw;
+}
 .portfolio-element {
   height: 48.4429065744vw;
 }
@@ -151,6 +154,7 @@ h2 {
   font-weight: 700;
   color: white;
   background-color: #070707;
+  cursor: pointer;
 }
 .contacts-socials-list {
   margin-bottom: 3.1141868512vw;
